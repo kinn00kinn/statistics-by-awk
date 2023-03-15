@@ -43,6 +43,9 @@ Usage: ./hensa2.awk [datafile]
 
 ### zfunction.awk
 正規分布 N(μ,ρ2)に従ったときのz関数を計算するプログラム
+$$
+\phi(z)=\int_{-\infty}^{z} \frac{1}{\sqrt {2\pi}\sigma}\exp(-\frac{(z-\mu)^2}{2\sigma^2})
+$$
 
 ==参考公式==
 1. 標準正規分布(z分布)はN(0,1)です
