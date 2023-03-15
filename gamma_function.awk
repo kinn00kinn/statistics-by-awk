@@ -10,7 +10,7 @@ BEGIN{
   print "1. Γ(s+1) = s*Γ(s) (0 < s)"
   print "2. Γ(1/2) = sqrt(pi)"
   print "3. Γ(n+1) = n! (n=自然数)"
-  print "このプログラムは 1<s<78 で安定して動作します"
+  print "このプログラムは 1<s<78.063 で安定して動作します"
 
   printf "s:"
   getline s
